@@ -96,7 +96,7 @@ section {
 
 .home-content {
   max-width: 60rem;
-  z-index: 99;
+  z-index: 2;
 }
 
 .home-content h1 {
@@ -753,7 +753,7 @@ span {
 }
 
 @media (max-width: 991px) {
-  .headee {
+  .header {
     padding: 2rem 4%;
   }
 
@@ -785,7 +785,7 @@ span {
     padding: 1rem 4%;
     background: var(--main-color);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    z-index: 99;
     transition: 0.25s ease;
     transition-delay: 0.25s;
   }
@@ -820,6 +820,7 @@ span {
     transform: translateX(-20rem);
     transition: 0.25s ease;
     transition-delay: 0s;
+    cursor: pointer;
   }
 
   .navbar.active a {
