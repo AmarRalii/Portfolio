@@ -96,7 +96,7 @@ section {
 
 .home-content {
   max-width: 60rem;
-  z-index: 2;
+  z-index: 3;
 }
 
 .home-content h1 {
@@ -533,6 +533,10 @@ span {
   min-height: auto;
   padding-bottom: 5rem;
 }
+.projects-row{
+  display: flex;
+  justify-content: space-around;
+}
 .projects .projects-row {
   display: flex;
   flex-wrap: wrap;
@@ -765,6 +769,10 @@ span {
   }
   .footer {
     padding: 2rem 4%;
+  }
+  .projects-row{
+    display: block;
+    margin-left: 25%;
   }
 }
 
